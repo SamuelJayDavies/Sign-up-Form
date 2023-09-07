@@ -102,6 +102,11 @@ a {
 }
 
 .intro-text {
+	margin-top: 13.5rem;
+	margin-bottom: 5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5rem;
 }
@@ -110,7 +115,59 @@ a {
 	font-style: italic;
 }
 
+.details-section {
+	background-color: white;
+	box-shadow: 0rem 0.5rem 1rem grey;
+}
+
+.details-section p {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 1.5rem;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: rgb(20, 19, 19);
+}
+
 .form-container {
 	display: flex;
+	flex-direction: row;
+	margin: 1rem;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1.5rem;
+
+	margin-top: 1rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-bottom: 2.5rem;
+}	
+
+label {
+	color: rgb(20, 19, 19);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+.input {
+	display: flex;
 	flex-direction: column;
+	gap: 0.4rem;
+	margin-right: 5rem;
+}
+
+input[type] {
+	height: 1.5rem;
+	width: 15rem;
+
+	border-radius: 0.2rem;
+	border-color: rgba(128, 128, 128, 0.5);
+
+	padding-left: 0.5rem;
 }
