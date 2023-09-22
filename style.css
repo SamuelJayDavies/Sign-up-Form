@@ -172,15 +172,22 @@ input[type] {
 	padding-left: 0.5rem;
 }
 
-input[type]:focus {
+.focused {
 	outline: none;
 	border: 0.1rem solid rgb(38, 114, 184);
+	box-shadow: 0rem 0.25rem 1rem rgba(170, 170, 170, 0.3);
+}
+
+.invalid {
+	outline: none;
+	border: 0.1rem solid rgb(184, 38, 38);
 	box-shadow: 0rem 0.25rem 1rem rgba(170, 170, 170, 0.3);
 }
 
 button[type="submit"] {
 	color: white;
 	background-color: #596D48;
+	cursor: pointer;
 
 	width: 15rem;
 	height: 3.5rem;
