@@ -163,6 +163,13 @@ label {
 	
 }
 
+.input p {
+	font-size: 0.75em;
+	color: red;
+
+	padding: 0;
+}
+
 input[type] {
 	height: 1.5rem;
 	width: 15rem;
@@ -171,6 +178,15 @@ input[type] {
 
 	padding-left: 0.5rem;
 }
+
+/*
+input:focus {
+	outline: none;
+	border: 0.1rem solid rgb(38, 114, 184);
+	box-shadow: 0rem 0.25rem 1rem rgba(170, 170, 170, 0.3);
+}
+*/
+
 
 .focused {
 	outline: none;
